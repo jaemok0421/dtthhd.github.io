@@ -7,6 +7,23 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       UnityLoader.instantiate("unityContainer", "Build/DetectiveHu.json");
+	  function Reset()
+	  {
+		var canvas = document.getElementById("#canvas");
+		var h = document.documentElement.clientHeight;
+		var w = document.documentElement.clientWidth;
+		var scale = 1024 / 768;
+		if (w / h > scale)
+		{
+			canvas.height = h;
+			canvas.width = h * scale;
+		}
+		else
+		{
+			canvas.height = w / scale;
+			canvas.width = w;
+		}
+	  }
     </script>
   </head>
   <body>
