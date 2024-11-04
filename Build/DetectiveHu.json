@@ -1,7 +1,7 @@
 {
 "companyName": "Mononeko Studio",
 "productName": "胡侦探传说同人：酒店连环杀人事件",
-"productVersion": "0.8",
+"productVersion": "0.9",
 "dataUrl": "DetectiveHu.data.unityweb",
 "wasmCodeUrl": "DetectiveHu.wasm.code.unityweb",
 "wasmFrameworkUrl": "DetectiveHu.wasm.framework.unityweb",
